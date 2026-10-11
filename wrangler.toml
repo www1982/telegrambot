@@ -1,12 +1,12 @@
-name = "telegram-deepseek-bot"
+name = "telegrabot"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
 # 绑定 Cloudflare D1 数据库
 [[d1_databases]]
 binding = "DB"
-database_name = "telegram-bot-db"
-database_id = "YOUR_DATABASE_ID"
+database_name = "telegram-botchat"
+database_id = "11aa214a-b393-4368-aeb7-74b57829a3f0"
 
 # 环境变量
 [env.production]
