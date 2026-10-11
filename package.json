@@ -1,0 +1,24 @@
+{
+  "name": "telegram-deepseek-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot powered by DeepSeek AI running on Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:prod": "wrangler deploy --env production"
+  },
+  "keywords": [
+    "telegram",
+    "deepseek",
+    "cloudflare",
+    "workers",
+    "ai",
+    "bot"
+  ],
+  "author": "www1982",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

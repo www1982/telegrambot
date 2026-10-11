@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# Cloudflare
+.wrangler/
+dist/
+build/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
